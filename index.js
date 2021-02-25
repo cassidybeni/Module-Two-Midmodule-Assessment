@@ -11,8 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let str = ""
         for(let i = 0; i < input; i++){
             str += dice[Math.floor(Math.random() * dice.length)]
-            dicePara.innerText = str  
-            
+            dicePara.innerText = str     
         }
         
         let sum = 0
@@ -31,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 sum += 6
             }
         }
+        
         let ul = document.querySelector('#history-list')
         let li = document.createElement('li')
         li.innerText = `${dicePara.innerText} = ${sum}`
