@@ -1,3 +1,4 @@
+//SMART goal: By 12pm 3/2 write DRY code for sum loop.
 document.addEventListener("DOMContentLoaded", () => {
     let btn = document.querySelector('#roll-dice')
     let dice = ['⚀','⚁','⚂','⚃','⚄','⚅']
